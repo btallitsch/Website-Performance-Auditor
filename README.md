@@ -1,30 +1,22 @@
-# Website Performance Auditor
+## What This Demonstrates
 
-A Next.js + React developer tool that audits a website URL and returns performance,
-accessibility, and SEO feedback.
+This project is intentionally designed as a professional-grade portfolio piece. It demonstrates:
 
-## Why This Project Matters
-- Demonstrates real-world React architecture
-- Shows API routes, UI state management, and data visualization
-- Built as a developer-focused tool (meta, practical, extensible)
+- **Next.js App Router**
+  - File-based routing
+  - Server and client component boundaries
 
-## Tech Stack
-- Next.js (App Router)
-- React 18
-- Tailwind CSS
-- Recharts (score gauges)
+- **API Routes & Data Fetching**
+  - Backend logic via `/api/audit`
+  - Async client-side integration
 
-## Features
-- Lighthouse-style performance scoring
-- Accessibility & SEO checks
-- Visual performance gauges
-- Clean separation of UI and logic
+- **Tailwind-Based UI Systems**
+  - Utility-first styling
+  - Consistent, scalable component design
 
-## Future Enhancements
-- Google Lighthouse API integration
-- PDF / JSON report exports
-- User accounts & saved audits
+- **Production Deployment**
+  - Deployed on Vercel
+  - Real CI/CD build pipeline
+  - Environment parity between local and production
 
-## Running Locally
-npm install
-npm run dev
+This project reflects how I approach real-world web applications: clean architecture, defensive UI logic, and production readiness.
