@@ -11,7 +11,7 @@
 'use client'
 
 import { useState } from 'react'
-import Results from '../components/Results'
+import Results from './components/Results'
 import Link from 'next/link'
 
 export default function HomePage() {
